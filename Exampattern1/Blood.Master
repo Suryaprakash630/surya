@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Blood.master.cs" Inherits="Exampattern1.Blood" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+        </div>
+    <table class="auto-style1">
+        <tr>
+            <td style="border: thin groove #000000; background-color: #66CCFF; font-size: x-large; font-style: inherit; font-weight: 100; text-transform: capitalize;">
+                <asp:Image ID="Image1" runat="server" Height="96px" ImageUrl="~/images/helpinghands.jpg" Width="288px" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HELPING&nbsp;&nbsp; HANDS</td>
+        </tr>
+        <tr>
+            <td style="font-weight: 700" class="auto-style2">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+        <p style="font-weight: bold; font-style: italic">
+            &nbsp;</p>
+    </form>
+    <p>
+&nbsp;</p>
+    </body>
+</html>
